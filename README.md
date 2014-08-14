@@ -22,7 +22,23 @@ Lorem ipsum trololol.
 
 ## API
 
-One more to go back without onez has together we know!
+Provides the following methods:
+
+* `file.mkdir()`
+* `file.write()`
+* `file.exists()`
+* `file.isLink()`
+* `file.isDir()`
+* `file.isDirAsync()`
+* `file.isFile()`
+* `file.isPathAbsolute()`
+* `file.arePathsEquivalent()`
+* `file.doesPathContain()`
+* `file.isPathCwd()`
+* `file.isPathInCwd()`
+* `file.copy()`
+* `file.read()`
+* `file.readJSON()`
 
 **[[⬆]](#TOC)**
 
