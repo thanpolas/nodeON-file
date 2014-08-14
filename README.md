@@ -51,3 +51,9 @@ Provides the following methods:
 ## License
 
 Copyright (c) 2014 Thanasis Polychronakis. Licensed under the MIT license.
+
+Mostly stripped from the [Grunt](http://gruntjs.com/) file module.
+
+Copyright (c) 2013 "Cowboy" Ben Alman
+Licensed under the MIT license.
+https://github.com/gruntjs/grunt/blob/master/LICENSE-MIT
