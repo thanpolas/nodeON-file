@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "nodeon-file",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./lib/file",
   "description": "A collection of file helpers.",
   "homepage": "https://github.com/thanpolas/nodeON-file",
