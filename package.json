@@ -24,9 +24,11 @@
     "test": "./node_modules/.bin/grunt jshint:lib && ./node_modules/.bin/mocha -b test/spec -u bdd  -R spec"
   },
   "dependencies": {
-    "cip": "~0.2.5",
-    "bluebird": "~2.3.0",
-    "lodash": "~2.4.1"
+    "bluebird": "^2.3.0",
+    "nodeon-error": "^0.1.0",
+    "js-yaml": "^3.1.0",
+    "iconv-lite": "^0.4.4",
+    "mv": "^2.0.3"
   },
   "devDependencies": {
     "grunt-release": "~0.7.0",
