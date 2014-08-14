@@ -24,45 +24,28 @@ Lorem ipsum trololol.
 
 Provides the following methods:
 
-* `file.mkdir()`
-* `file.write()`
-* `file.exists()`
-* `file.isLink()`
-* `file.isDir()`
-* `file.isDirAsync()`
-* `file.isFile()`
-* `file.isPathAbsolute()`
-* `file.arePathsEquivalent()`
-* `file.doesPathContain()`
-* `file.isPathCwd()`
-* `file.isPathInCwd()`
-* `file.copy()`
-* `file.read()`
-* `file.readJSON()`
+* `file.mkdir(dirpath, mode)` Synchronous.
+* `file.write(filepath, contents, options)` Synchronous.
+* `file.exists(args..*)` Synchronous; Any number of arguments, gets joined up.
+* `file.isLink(args..*)` Synchronous; Any number of arguments, gets joined up.
+* `file.isDir(args..*)` Synchronous; Any number of arguments, gets joined up.
+* `file.isDirAsync(directory)` Asynchronous; Returns Promise.
+* `file.isFile(args..*)` Synchronous; Any number of arguments, gets joined up.
+* `file.isPathAbsolute(args..*)` Synchronous; Any number of arguments, gets joined up.
+* `file.arePathsEquivalent(first, args..*)` Synchronous; Any number of arguments, gets joined up.
+* `file.doesPathContain(ancestor, args..*)` Synchronous; Are descendant path(s) contained within ancestor path? Note: does not test if paths actually exist.
+* `file.isPathCwd(args..*)` Synchronous; Any number of arguments, gets joined up.
+* `file.isPathInCwd(args..*)` Synchronous; Any number of arguments, gets joined up.
+* `file.copy(src, dst)` Asynchronous; Returns Promise.
+* `file.read(filepath, options)` Synchronous.
+* `file.readJSON(filepath, options)` Synchronous.
+* `file.readYaml(filepath)`  Asynchronous; Returns Promise.
 
 **[[⬆]](#TOC)**
 
-### <a name='toApi'>Getting an API Safe verison</a>
-
-> ### errInstance.toApi()
->
-> *Returns* `Object` A sanitized object.
-
-Clones the error object and strips it of all the `Error` getters (like `stack`) and the following attributes:
-    
-    * `srcError`
-
-```js
-var appErr = require('nodeon-error');
-
-var error = new appErr.Error();
-
-console.log(error.toApi());
-```
-
 ## Release History
 
-- **v0.0.1**, *TBD*
+- **v0.0.1**, *14 Aug 2014*
     - Big Bang
 
 ## License

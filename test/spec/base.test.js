@@ -23,5 +23,6 @@ describe('Base API Surface', function() {
     expect(file.copy).to.be.a('function');
     expect(file.read).to.be.a('function');
     expect(file.readJSON).to.be.a('function');
+    expect(file.readYaml).to.be.a('function');
   });
 });
