@@ -45,7 +45,7 @@ Provides the following methods:
 
 ## Release History
 
-- **v0.0.1**, *14 Aug 2014*
+- **v0.1.0**, *14 Aug 2014*
     - Big Bang
 
 ## License
