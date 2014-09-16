@@ -38,7 +38,7 @@ Provides the following methods:
 * `file.isPathInCwd(args..*)` Synchronous; Any number of arguments, gets joined up.
 * `file.copy(src, dst)` Asynchronous; Returns Promise.
 * `file.read(filepath, options)` Synchronous.
-* `file.readAsync(filepath, options)` ASynchronous.
+* `file.readAsync(filepath)` ASynchronous.
 * `file.readJSON(filepath, options)` Synchronous.
 * `file.readYaml(filepath)`  Asynchronous; Returns Promise.
 
@@ -46,6 +46,8 @@ Provides the following methods:
 
 ## Release History
 
+- **v0.1.1**, *16 Aug 2014*
+    - Added `readAsync()` method.
 - **v0.1.0**, *14 Aug 2014*
     - Big Bang
 
