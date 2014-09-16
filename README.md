@@ -38,6 +38,7 @@ Provides the following methods:
 * `file.isPathInCwd(args..*)` Synchronous; Any number of arguments, gets joined up.
 * `file.copy(src, dst)` Asynchronous; Returns Promise.
 * `file.read(filepath, options)` Synchronous.
+* `file.readAsync(filepath, options)` ASynchronous.
 * `file.readJSON(filepath, options)` Synchronous.
 * `file.readYaml(filepath)`  Asynchronous; Returns Promise.
 
