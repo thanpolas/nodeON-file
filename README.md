@@ -27,6 +27,7 @@ Provides the following methods:
 * `file.mkdir(dirpath, mode)` Synchronous.
 * `file.write(filepath, contents, options)` Synchronous.
 * `file.exists(args..*)` Synchronous; Any number of arguments, gets joined up.
+* `file.existsAsync(args..*)` Asynchronous; Any number of arguments, gets joined up.
 * `file.isLink(args..*)` Synchronous; Any number of arguments, gets joined up.
 * `file.isDir(args..*)` Synchronous; Any number of arguments, gets joined up.
 * `file.isDirAsync(directory)` Asynchronous; Returns Promise.

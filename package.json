@@ -23,9 +23,9 @@
     "test": "./node_modules/.bin/grunt jshint:lib && ./node_modules/.bin/mocha -b test/spec -u bdd  -R spec"
   },
   "dependencies": {
-    "bluebird": "^2.3.0",
+    "bluebird": "^2.3.2",
     "nodeon-error": "^0.1.0",
-    "js-yaml": "^3.1.0",
+    "js-yaml": "^3.2.2",
     "iconv-lite": "^0.4.4",
     "mv": "^2.0.3"
   },
@@ -34,7 +34,7 @@
     "grunt-contrib-jshint": "^0.10.0",
     "load-grunt-tasks": "~0.6.0",
     "mocha": "~1.21.4",
-    "grunt-mocha-test": "~0.11.0",
+    "grunt-mocha-test": "~0.12.0",
     "grunt": "~0.4.5",
     "chai": "~1.9.1",
     "sinon": "~1.10.3",

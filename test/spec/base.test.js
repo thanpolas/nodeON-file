@@ -11,6 +11,7 @@ describe('Base API Surface', function() {
     expect(file.mkdir).to.be.a('function');
     expect(file.write).to.be.a('function');
     expect(file.exists).to.be.a('function');
+    expect(file.existsAsync).to.be.a('function');
     expect(file.isLink).to.be.a('function');
     expect(file.isDir).to.be.a('function');
     expect(file.isDirAsync).to.be.a('function');
