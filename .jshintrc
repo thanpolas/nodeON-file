@@ -94,8 +94,6 @@
   // suppress object dot notation warnings, we know what we're doing
   "sub": true,
 
-
-
   /**
    * TEMPORARY OPTIONS
    * =================
