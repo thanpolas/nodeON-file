@@ -47,6 +47,8 @@ Provides the following methods:
 
 ## Release History
 
+- **v0.1.2**, *17 Aug 2014*
+    - Added `existsAsync()` method.
 - **v0.1.1**, *16 Aug 2014*
     - Added `readAsync()` method.
 - **v0.1.0**, *14 Aug 2014*
