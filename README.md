@@ -48,6 +48,8 @@ Provides the following methods:
 
 ## Release History
 
+- **v0.1.4**, *24 Sep 2014*
+    - Added `writeAsync()` method.
 - **v0.1.3**, *17 Aug 2014*
     - Added `existsAsync()` method.
 - **v0.1.1**, *16 Aug 2014*
