@@ -10,6 +10,7 @@ describe('Base API Surface', function() {
   it('should provide expected methods', function() {
     expect(file.mkdir).to.be.a('function');
     expect(file.write).to.be.a('function');
+    expect(file.writeAsync).to.be.a('function');
     expect(file.exists).to.be.a('function');
     expect(file.existsAsync).to.be.a('function');
     expect(file.isLink).to.be.a('function');
