@@ -27,7 +27,8 @@
     "nodeon-error": "^0.1.0",
     "js-yaml": "^3.2.2",
     "iconv-lite": "^0.4.4",
-    "mv": "^2.0.3"
+    "mv": "^2.0.3",
+    "temp": "^0.8.1"
   },
   "devDependencies": {
     "grunt-release": "~0.7.0",
