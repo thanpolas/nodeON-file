@@ -43,6 +43,7 @@ Provides the following methods:
 * `file.readAsync(filepath)` ASynchronous.
 * `file.readJSON(filepath, options)` Synchronous.
 * `file.readYaml(filepath)`  Asynchronous; Returns Promise.
+* `file.createTempDir()` Asynchronous; Creates a temporary directory, returns full path.
 
 **[[⬆]](#TOC)**
 
