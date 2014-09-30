@@ -49,6 +49,8 @@ Provides the following methods:
 
 ## Release History
 
+- **v0.1.5**, *24 Sep 2014*
+    - Added `createTempDir()` method.
 - **v0.1.4**, *24 Sep 2014*
     - Added `writeAsync()` method.
 - **v0.1.3**, *17 Aug 2014*
