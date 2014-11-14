@@ -50,6 +50,8 @@ Provides the following methods:
 
 ## Release History
 
+- **v0.1.6**, *14 Nov 2014*
+    - Added `isDirAsyncBool` method.
 - **v0.1.5**, *24 Sep 2014*
     - Added `createTempDir()` method.
 - **v0.1.4**, *24 Sep 2014*
