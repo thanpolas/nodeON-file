@@ -31,7 +31,8 @@ Provides the following methods:
 * `file.existsAsync(args..*)` Asynchronous; Any number of arguments, gets joined up.
 * `file.isLink(args..*)` Synchronous; Any number of arguments, gets joined up.
 * `file.isDir(args..*)` Synchronous; Any number of arguments, gets joined up.
-* `file.isDirAsync(directory)` Asynchronous; Returns Promise.
+* `file.isDirAsync(directory)` Asynchronous; Returns Promise, rejects if not dir.
+* `file.isDirAsyncBool(directory)` Asynchronous; Returns Promise with a boolean result.
 * `file.isFile(args..*)` Synchronous; Any number of arguments, gets joined up.
 * `file.isPathAbsolute(args..*)` Synchronous; Any number of arguments, gets joined up.
 * `file.arePathsEquivalent(first, args..*)` Synchronous; Any number of arguments, gets joined up.
