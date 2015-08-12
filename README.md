@@ -45,11 +45,14 @@ Provides the following methods:
 * `file.readJSON(filepath, options)` Synchronous.
 * `file.readYaml(filepath)`  Asynchronous; Returns Promise.
 * `file.createTempDir()` Asynchronous; Creates a temporary directory, returns full path.
+* `file.changeCreateTime(filepath, date)` Asynchronous; Changes the Create, Modify and Access times of the file specified, supply any JS parsable date object or string.
 
 **[[⬆]](#TOC)**
 
 ## Release History
 
+- **v0.1.7**, *12 Aug 2015*
+    - Added changeCreateTime method.
 - **v0.1.6**, *14 Nov 2014*
     - Added `isDirAsyncBool` method.
 - **v0.1.5**, *24 Sep 2014*
