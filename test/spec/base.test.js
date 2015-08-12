@@ -29,5 +29,6 @@ describe('Base API Surface', function() {
     expect(file.readJSON).to.be.a('function');
     expect(file.readYaml).to.be.a('function');
     expect(file.createTempDir).to.be.a('function');
+    expect(file.changeCreateTime).to.be.a('function');
   });
 });
