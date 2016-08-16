@@ -51,6 +51,10 @@ Provides the following methods:
 
 ## Release History
 
+
+- **v1.0.0**, *16 Aug 2016*
+    - Fixed space issue with changeCreateTime().
+    - Honorary release.
 - **v0.1.7**, *12 Aug 2015*
     - Added changeCreateTime method.
 - **v0.1.6**, *14 Nov 2014*
