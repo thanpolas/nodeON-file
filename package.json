@@ -14,32 +14,28 @@
     "type": "git",
     "url": "https://github.com/thanpolas/nodeON-file"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
+  "license": "MIT",
   "scripts": {
     "test": "./node_modules/.bin/grunt jshint:lib && ./node_modules/.bin/mocha -b test/spec -u bdd  -R spec"
   },
   "dependencies": {
-    "bluebird": "^2.9.34",
-    "iconv-lite": "^0.4.11",
-    "js-yaml": "^3.3.1",
-    "moment": "^2.10.6",
+    "bluebird": "^3.4.1",
+    "iconv-lite": "^0.4.13",
+    "js-yaml": "^3.6.1",
+    "moment": "^2.14.1",
     "mv": "^2.1.1",
     "nodeon-error": "^0.2.1",
     "temp": "^0.8.3"
   },
   "devDependencies": {
-    "grunt-release": "~0.13.0",
-    "grunt-contrib-jshint": "^0.11.2",
-    "load-grunt-tasks": "~3.2.0",
-    "mocha": "~2.2.5",
+    "grunt-release": "~0.14.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "load-grunt-tasks": "~3.5.2",
+    "mocha": "~3.0.2",
     "grunt-mocha-test": "~0.12.7",
-    "grunt": "~0.4.5",
-    "chai": "~3.2.0",
-    "sinon": "~1.15.4",
-    "grunt-cli": "^0.1.13"
+    "grunt": "~1.0.1",
+    "chai": "~3.5.0",
+    "sinon": "~1.17.5",
+    "grunt-cli": "^1.2.0"
   }
 }
